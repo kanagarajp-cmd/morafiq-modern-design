@@ -1,4 +1,5 @@
 import { Apple, Play, Check } from "lucide-react";
+import { Link } from "react-router";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function AppDownload() {
@@ -27,20 +28,20 @@ export function AppDownload() {
             </ul>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="/app" className="inline-flex items-center gap-3 rounded-2xl bg-navy px-5 py-3 transition-transform hover:scale-[1.03]">
+              <Link to="/app" className="inline-flex items-center gap-3 rounded-2xl bg-navy px-5 py-3 transition-transform hover:scale-[1.03]">
                 <Apple className="size-6" />
                 <span className="text-left leading-tight">
                   <span className="block text-xs text-white/70">Download on the</span>
                   <span className="block" style={{ fontWeight: 700 }}>App Store</span>
                 </span>
-              </a>
-              <a href="/app" className="inline-flex items-center gap-3 rounded-2xl bg-navy px-5 py-3 transition-transform hover:scale-[1.03]">
+              </Link>
+              <Link to="/app" className="inline-flex items-center gap-3 rounded-2xl bg-navy px-5 py-3 transition-transform hover:scale-[1.03]">
                 <Play className="size-6" />
                 <span className="text-left leading-tight">
                   <span className="block text-xs text-white/70">Get it on</span>
                   <span className="block" style={{ fontWeight: 700 }}>Google Play</span>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
 
