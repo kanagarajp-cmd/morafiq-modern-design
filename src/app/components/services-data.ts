@@ -1,4 +1,5 @@
 import { Home, Briefcase, Building2, type LucideIcon } from "lucide-react";
+import homeCheckinImg from "../../blog-image.png";
 
 export type Service = {
   id: string;
@@ -38,8 +39,7 @@ export const services: Service[] = [
       { label: "We collect", detail: "A vetted rider grabs your bags." },
       { label: "Travel light", detail: "Walk into the airport empty-handed." },
     ],
-    image:
-      "https://images.unsplash.com/photo-1565620731358-e8c038abf86b?w=1200&h=900&fit=crop&auto=format",
+    image: homeCheckinImg,
   },
   {
     id: "leave",

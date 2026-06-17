@@ -94,8 +94,8 @@ export function Hero() {
         >
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1488085061387-422e29b40080?w=900&h=1000&fit=crop&auto=format"
-              alt="Traveller walking through the airport hands-free"
+              src="https://images.unsplash.com/photo-1552386128-868525fb78b9?w=900&h=1000&fit=crop&auto=format"
+              alt="Happy family standing inside airport terminal with airplane through the window"
               className="h-[440px] w-full object-cover"
             />
           </div>
