@@ -1,5 +1,6 @@
 import { Home, Briefcase, Building2, type LucideIcon } from "lucide-react";
 import homeCheckinImg from "../../blog-image.png";
+import cityCheckinImg from "../../Mussafah-city-check-In.png";
 
 export type Service = {
   id: string;
@@ -43,7 +44,7 @@ export const services: Service[] = [
   },
   {
     id: "leave",
-    name: "Leave & Lave",
+    name: "Land & Leave",
     tagline: "Drop, store, relax",
     icon: Briefcase,
     price: "AED 39",
@@ -86,7 +87,6 @@ export const services: Service[] = [
       { label: "Check in", detail: "Bags tagged, boarding pass issued." },
       { label: "Head to gate", detail: "Breeze past the airport queues." },
     ],
-    image:
-      "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&h=900&fit=crop&auto=format",
+    image: cityCheckinImg,
   },
 ];

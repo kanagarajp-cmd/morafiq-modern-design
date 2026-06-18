@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowRight, MapPin, Star } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import porterImg from "../../40b-luggage-area-porter.webp";
 
 export function Hero() {
   return (
@@ -94,8 +95,8 @@ export function Hero() {
         >
           <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1552386128-868525fb78b9?w=900&h=1000&fit=crop&auto=format"
-              alt="Happy family standing inside airport terminal with airplane through the window"
+              src={porterImg}
+              alt="Luggage area porter at the airport"
               className="h-[440px] w-full object-cover"
             />
           </div>
